@@ -24,8 +24,7 @@ public static class BogusSeeder
         var userFaker = new Faker<User>("sv")
             .RuleFor(u => u.Username,  f => f.Internet.UserName())
             .RuleFor(u => u.Email,     f => f.Internet.Email())
-            .RuleFor(u => u.CreatedAt, f => f.Date.Past(1));
-
+            .RuleFor(u => u.CreatedAt, f => f.Date.Past(1).ToUniversalTime());
         var users = userFaker.Generate(5);
         db.Users.AddRange(users);
         await db.SaveChangesAsync();

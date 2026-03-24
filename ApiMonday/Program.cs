@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Databas
 builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
