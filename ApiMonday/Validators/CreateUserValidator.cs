@@ -1,7 +1,7 @@
 using FluentValidation;
 using ApiMonday.DTOs.User;
 
-namespace InventoryAPI.Validators;
+namespace ApiMonday.Validators;
 
 public class CreateUserValidator : AbstractValidator<CreateUserDto>
 {

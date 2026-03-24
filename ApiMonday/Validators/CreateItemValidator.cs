@@ -1,7 +1,7 @@
 using FluentValidation;
 using ApiMonday.DTOs.Item;
 
-namespace InventoryAPI.Validators;
+namespace ApiMonday.Validators;
 
 public class CreateItemValidator : AbstractValidator<CreateItemDto>
 {

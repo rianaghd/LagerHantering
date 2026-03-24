@@ -1,7 +1,7 @@
 using FluentValidation;
 using ApiMonday.DTOs.Category;
 
-namespace InventoryAPI.Validators;
+namespace ApiMonday.Validators;
 
 public class CreateCategoryValidator : AbstractValidator<CreateCategoryDto>
 {
