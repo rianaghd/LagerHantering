@@ -1,4 +1,4 @@
-namespace ApiMondayDTOs.User;
+namespace ApiMonday.DTOs.User;
 
 public class UpdateUserDto
 {
