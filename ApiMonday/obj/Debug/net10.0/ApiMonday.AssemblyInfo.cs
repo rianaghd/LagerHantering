@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiMonday")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06deb8dc516ef5b75449dfb10b5bcec884c747e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec5305acf83ce7177751de7065f921bdb1c8251d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiMonday")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiMonday")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
