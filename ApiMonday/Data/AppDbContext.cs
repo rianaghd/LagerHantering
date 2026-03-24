@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ApiMonday.Models;
 
-namespace InventoryAPI.Data;
+namespace ApiMonday.Data;
 
 public class AppDbContext : DbContext
 {

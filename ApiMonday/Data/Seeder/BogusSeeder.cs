@@ -1,7 +1,7 @@
 using Bogus;
 using ApiMonday.Models;
 
-namespace InventoryAPI.Data.Seeder;
+namespace ApiMonday.Data.Seeder;
 
 public static class BogusSeeder
 {
